@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "listaihub-client"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name = "Roman Grid", email = "romangrid@users.noreply.github.com" },
 ]
@@ -31,3 +31,4 @@ dependencies = [
 
 [project.scripts]
 listaihub = "listaihub.cli:main"
+listaihub-mcp = "listaihub.mcp_server:main"

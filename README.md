@@ -25,6 +25,21 @@ Built specifically for autonomous AI agents, LLM tool-calling pipelines, and dev
 
 ---
 
+
+## Model Context Protocol (MCP) Server
+
+`listaihub-client` provides a built-in MCP server that enables AI coding assistants (Claude Code, Cursor, Windsurf) to discover and query AI tools:
+
+```json
+{
+  "mcpServers": {
+    "listaihub": {
+      "command": "listaihub-mcp"
+    }
+  }
+}
+```
+
 ## Installation
 
 ```bash
